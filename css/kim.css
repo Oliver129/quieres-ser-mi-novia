@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+	padding: 0;
+	background-image: url('../img/corazon.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+	background-position: center;
+	text-shadow: 9px 4px 9px #000;
+}
+
+body:before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background: linear-gradient(90deg,#009, orange);
+    opacity: .8;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: -7;
+}
+
+@media(min-width:1000px){
+body{
+		margin: 0;
+		padding: 0;
+		background-image: url('../img/AMOR.png');
+		display: inline-table;
+		background-size: cover;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100vh;
+		background-position: center;
+	}
+	
+	body:before{
+		content: "";
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+	
+		background: linear-gradient(90deg,#009, orange);
+		opacity: .8;
+		font-size: 30px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+		z-index: -7;
+	}
+	.si {
+		background: none;
+		padding-left: 80px;
+		padding-top: 17px;
+		text-align: center;
+	}
+	
+	.no{
+		background: none;
+		padding-left: 179px;
+		padding-top: 299px;
+		text-align: end;
+	}
+}
+
+.contenedor {
+	padding:0px;
+    margin:auto;
+    width:500px;
+    height:500px;
+    background:blue(231, 247, 6);
+	border: 8px solid   rgb(5, 255, 5);
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#player {
+	background-color: #ccc;
+	text-decoration: blink;
+	border:4px double #B22;
+	width :70px;
+	cursor: pointer;
+	height :30px;
+    position:absolute;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#player:hover{
+	background-color: #B22;
+
+}
+
+.pointer {
+	background :rgb(1, 48, 255);
+	height :30px;
+	margin-top:20px;
+	border-bottom:0;
+	font-size:20px;
+	text-align: center;
+	padding: 10px  0px;
+	font-size: 30px;
+	color: #fff;
+} 
+
+.si {
+	background: none;
+	padding-left: 70px;
+	padding-top: 17px;
+	text-align: center;
+}
+
+.no{
+	background: none;
+	padding-left: 289px;
+	padding-top: 299px;
+	text-align: end;
+}
+
+#veces_que_me_rechazas:hover{
+
+	font-size: 30px;
+	color: #f00;
+	background-color: rgb(72, 255, 246);
+}
+
+
+#player a{
+	text-decoration:none;
+	color: #000;
+}
+.oliver{
+	display: flex;
+    width: 510px;
+    height: 50px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+
+    position: absolute;
+    top: -590px;
+    left:0px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.oliver:hover{
+	color: #fff;
+	background: #f00;
+}
+
+ul {
+	list-style: none;
+    padding-left: 10px;
+    animation: cambiate 7s infinite;
+}
+
+ul, p{
+	margin: 0;
+}
+
+@keyframes cambiate {
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    0%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+    100%{margin-top: 0;}
+}
+
+.sol{
+	color: #0f0;       
+}
+.sol:hover{
+	color: #000;
+}
